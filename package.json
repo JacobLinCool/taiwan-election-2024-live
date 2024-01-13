@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "tsx src/index.ts"
+        "start": "tsx src/dash.ts"
     },
     "keywords": [],
     "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
@@ -17,6 +17,7 @@
         "typescript": "^5.3.3"
     },
     "dependencies": {
-        "cheerio": "1.0.0-rc.12"
+        "cheerio": "1.0.0-rc.12",
+        "log-update": "^6.0.0"
     }
 }
